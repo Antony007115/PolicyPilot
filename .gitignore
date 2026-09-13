@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+env/
+
+# Test and tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Generated data / local vector database
+data/vector_db/
+data/index/
+*.db
+*.sqlite
+*.sqlite3
+.chroma/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
